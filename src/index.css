@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== 🎨 Estilos Globales Multipagos QR ===== */
+body {
+  @apply bg-gray-100 text-gray-800 font-sans;
+}
+
+/* Animación del logo o elementos destacados */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin-slow {
+  animation: spin-slow 6s linear infinite;
+}
