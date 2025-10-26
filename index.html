@@ -1,13 +1,48 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- Ícono del sitio -->
+    <link rel="icon" type="image/png" href="/src/assets/logo.png" />
+
+    <!-- Responsividad -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>multipagos</title>
+
+    <!-- Título -->
+    <title>Multipagos QR — Plataforma de Pagos</title>
+
+    <!-- Descripción para SEO -->
+    <meta
+      name="description"
+      content="Multipagos QR es una plataforma boliviana que centraliza pagos de servicios: agua, luz, internet, colegios y más. Paga fácil escaneando tu código QR."
+    />
+
+    <!-- Color del tema (usado por Android y navegadores modernos) -->
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- Open Graph para compartir en redes -->
+    <meta property="og:title" content="Multipagos QR — Plataforma de Pagos" />
+    <meta
+      property="og:description"
+      content="Paga tus servicios en segundos con Multipagos QR. Rápido, seguro y sin crear cuenta."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/src/assets/logo.png" />
+    <meta property="og:url" content="http://localhost:5173" />
+
+    <!-- Fuente base (Tailwind maneja el resto desde index.css) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+
+  <body class="bg-gray-100 text-gray-800 font-[Inter]">
+    <!-- Punto de montaje principal -->
     <div id="root"></div>
+
+    <!-- Script de arranque React -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

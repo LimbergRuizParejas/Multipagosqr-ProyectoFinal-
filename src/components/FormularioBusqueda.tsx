@@ -24,7 +24,7 @@ const FormularioBusqueda: React.FC<Props> = ({ onBuscar }) => {
   return (
     <div className="w-full max-w-md bg-white border rounded-xl shadow-md p-6">
       <h2 className="text-xl font-semibold mb-4 text-center text-gray-800">
-        🔍 Búsqueda de deuda
+         Busca tu deuda
       </h2>
 
       <form onSubmit={manejarEnvio} className="space-y-4">
